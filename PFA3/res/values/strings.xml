@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PFA</string>
+    <string name="mainTag">Hospital</string>
+    <string name="Country">ES</string>
+    <string name="gPlacesURL">https://maps.googleapis.com/maps/api/place/nearbysearch/json?radius=2500&amp;sensor=true&amp;location=</string>
+    <string name="gPlacesKey">&amp;key=AIzaSyCzLUPaUf38EiN-VL5FCdWC1QXI6iOH39g</string>
+    <string name="gMapsKey">AIzaSyD8frUSQZGZNqL9la6JhfaceVvnfKDMs3U</string>
+    <string name="type">&amp;types=hospital</string>
+    <string name="Location">37.18670522,-3.58</string>
+    <string name="gDirections">https://maps.googleapis.com/maps/api/directions/json?</string>
+    <string name="gOrigin">origin=</string>
+    <string name="gDestination">&amp;destination=</string>
+    <string name="gMode">&amp;mode=walking</string>
+</resources>
+
+

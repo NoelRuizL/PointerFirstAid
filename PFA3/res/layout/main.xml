@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Objeto1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo1"
+    android:fitsSystemWindows="false"
+    android:scrollbarAlwaysDrawVerticalTrack="false"
+    tools:context=".Main" >
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        class="com.google.android.gms.maps.MapFragment" />
+
+    <ImageView
+        android:id="@+id/iv_animacion"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_centerVertical="false"
+        android:layout_toRightOf="@+id/imageView1"
+        android:adjustViewBounds="false"
+        android:background="@drawable/animacion"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/map"
+        android:layout_marginLeft="17dp"
+        android:background="@drawable/logo" />
+    
+</RelativeLayout>
+
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+   
+</RelativeLayout>
+-->
